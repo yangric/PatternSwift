@@ -15,15 +15,15 @@ class WeatherData : Observable{
     }
     
     func removeObserver(observer: Observer) {
-        var objIndex = 0
+        var objIndex:Int? = nil
         for (index, element) in enumerate(self.observers) {
-            if element == observer {
+            if element === observer {
                 objIndex = index
             }
         }
         
-        if objIndex != 0 {
-            self.observers.removeAtIndex(objIndex)
+        if objIndex != nil {
+            self.observers.removeAtIndex(objIndex!)
         }
     }
     

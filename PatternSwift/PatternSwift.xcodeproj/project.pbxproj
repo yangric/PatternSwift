@@ -37,6 +37,11 @@
 		2291B0D21B3AF38B00252EC7 /* Observer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2291B0D11B3AF38B00252EC7 /* Observer.swift */; };
 		2291B0D41B3AF3E900252EC7 /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2291B0D31B3AF3E900252EC7 /* WeatherData.swift */; };
 		2291B0D61B3B022B00252EC7 /* CurrentConditionsDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2291B0D51B3B022B00252EC7 /* CurrentConditionsDisplay.swift */; };
+		2291B0D81B3B059700252EC7 /* ObserverPatternTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2291B0D71B3B059700252EC7 /* ObserverPatternTests.swift */; };
+		2291B0D91B3B05C300252EC7 /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2291B0CF1B3AF35B00252EC7 /* Observable.swift */; };
+		2291B0DA1B3B05C300252EC7 /* Observer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2291B0D11B3AF38B00252EC7 /* Observer.swift */; };
+		2291B0DB1B3B05C300252EC7 /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2291B0D31B3AF3E900252EC7 /* WeatherData.swift */; };
+		2291B0DC1B3B05C300252EC7 /* CurrentConditionsDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2291B0D51B3B022B00252EC7 /* CurrentConditionsDisplay.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +80,7 @@
 		2291B0D11B3AF38B00252EC7 /* Observer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Observer.swift; sourceTree = "<group>"; };
 		2291B0D31B3AF3E900252EC7 /* WeatherData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherData.swift; sourceTree = "<group>"; };
 		2291B0D51B3B022B00252EC7 /* CurrentConditionsDisplay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentConditionsDisplay.swift; sourceTree = "<group>"; };
+		2291B0D71B3B059700252EC7 /* ObserverPatternTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObserverPatternTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +149,7 @@
 				2291B0A31B39B0A100252EC7 /* PatternSwiftTests.swift */,
 				2291B0A11B39B0A100252EC7 /* Supporting Files */,
 				2291B0CC1B39B78100252EC7 /* StrategyPatternTests.swift */,
+				2291B0D71B3B059700252EC7 /* ObserverPatternTests.swift */,
 			);
 			path = PatternSwiftTests;
 			sourceTree = "<group>";
@@ -305,14 +312,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2291B0D91B3B05C300252EC7 /* Observable.swift in Sources */,
+				2291B0DB1B3B05C300252EC7 /* WeatherData.swift in Sources */,
 				2291B0C71B39B76900252EC7 /* FlyNoWay.swift in Sources */,
 				2291B0CA1B39B76900252EC7 /* MuteQuack.swift in Sources */,
+				2291B0D81B3B059700252EC7 /* ObserverPatternTests.swift in Sources */,
 				2291B0C91B39B76900252EC7 /* Squeak.swift in Sources */,
+				2291B0DA1B3B05C300252EC7 /* Observer.swift in Sources */,
 				2291B0C81B39B76900252EC7 /* Quack.swift in Sources */,
 				2291B0CB1B39B76900252EC7 /* ModelDuck.swift in Sources */,
 				2291B0C31B39B76900252EC7 /* Duck.swift in Sources */,
 				2291B0C41B39B76900252EC7 /* FlyBehavior.swift in Sources */,
 				2291B0A41B39B0A100252EC7 /* PatternSwiftTests.swift in Sources */,
+				2291B0DC1B3B05C300252EC7 /* CurrentConditionsDisplay.swift in Sources */,
 				2291B0C61B39B76900252EC7 /* FlyWithWings.swift in Sources */,
 				2291B0CD1B39B78100252EC7 /* StrategyPatternTests.swift in Sources */,
 				2291B0C51B39B76900252EC7 /* QuackBehavior.swift in Sources */,
